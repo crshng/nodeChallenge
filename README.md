@@ -1,5 +1,3 @@
-# nodeChallenge
-
 #Employee Listing API
 RESTful JSON API with node, Express, and Mongoose
 
