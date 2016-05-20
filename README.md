@@ -3,6 +3,7 @@ RESTful JSON API with node, Express, and Mongoose
 
 ##Set-up
 This API uses express as the node framework, Mongoose as ORM and body-parser to pull POST content from HTTP requests. Here's what the package.json looks like: 
+```json
 {
   "name": "rest",
   "version": "0.0.0",
@@ -13,6 +14,7 @@ This API uses express as the node framework, Mongoose as ORM and body-parser to 
     "mongoose": "^4.4.17",
   }
 }
+```
 
 To start MongoDB and our server on localhost:3000:
 $ mongod
