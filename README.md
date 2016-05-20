@@ -24,6 +24,16 @@ To start MongoDB and our server on localhost:3000:
 Navigating to http://localhost:8080/api should display a "This is the employee api" message.
 
 ##Routes
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| /api/employees| right-aligned | $1600 |
+| /api/employees/add     | centered      |   $12 |
+| /api/employees/delete/:employee_id | are neat      |    $1 |
+| /api/employees/edit/:employee_id | are neat      |    $1 |
+| /api/employees/search/:name	 | are neat      |    $1 |
+| zebra stripes | are neat      |    $1 |
+| zebra stripes | are neat      |    $1 |
+| zebra stripes | are neat      |    $1 |
 /api/employees                      GET	Get all the employees.
 /api/employees/add	                POST	Create an employee.
 /api/employees/delete/:employee_id	DELETE an employee.
