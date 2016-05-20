@@ -17,8 +17,9 @@ This API uses express as the node framework, Mongoose as ORM and body-parser to 
 ```
 
 To start MongoDB and our server on localhost:3000:
-$ mongod
-$ node server.js 
+
+`$ mongod`
+`$ node server.js`
 
 Navigating to http://localhost:8080/api should display a "This is the employee api" message.
 
