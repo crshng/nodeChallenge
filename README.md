@@ -24,20 +24,12 @@ To start MongoDB and our server on localhost:3000:
 Navigating to http://localhost:8080/api should display a "This is the employee api" message.
 
 ##Routes
-| Tables        | Are           | Cool  |
+| Route        | HTTP Verb           | Function  |
 | ------------- |:-------------:| -----:|
-| /api/employees| right-aligned | $1600 |
-| /api/employees/add     | centered      |   $12 |
-| /api/employees/delete/:employee_id | are neat      |    $1 |
-| /api/employees/edit/:employee_id | are neat      |    $1 |
-| /api/employees/search/:name	 | are neat      |    $1 |
-| zebra stripes | are neat      |    $1 |
-| zebra stripes | are neat      |    $1 |
-| zebra stripes | are neat      |    $1 |
-/api/employees                      GET	Get all the employees.
-/api/employees/add	                POST	Create an employee.
-/api/employees/delete/:employee_id	DELETE an employee.
-/api/employees/edit/:employee_id  	PUT	Update an existing employee record with new info.
-/api/employees/search/:name	        GET	Search for employees based on first or last name.
+| /api/employees| GET | Get all the employees. |
+| /api/employees/add     | POST      |   Create an employee. |
+| /api/employees/delete/:employee_id | DELETE      |    Delete an employee. |
+| /api/employees/edit/:employee_id | PUT      |    Update an existing employee record with new info. |
+| /api/employees/search/:name	 | GET      |    Search for employees based on first or last name. |
 
 
